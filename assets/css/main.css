@@ -24,7 +24,6 @@ body{
   width: 100%;
   height: 100%;
   min-height: inherit;;
-  -moz-filter: blur(5px);
   -webkit-filter: blur(5px);
   filter: blur(5px);
 }
@@ -59,8 +58,6 @@ header #logo{
   width: 350px;
   padding: 15px;
   margin-top: 7.5vh;
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 #elements{
@@ -103,12 +100,10 @@ nav.deployed{
   background-image: url("../img/thumb.png");
   background-position: center;
   background-size: cover;
-  transition: -moz-filter 0.5s;
   transition: -webkit-filter 0.5s;
   transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 #works li.nonhover{
-  -moz-filter: brightness(50%);
   -webkit-filter: brightness(50%);
 }
 #works img{
@@ -163,8 +158,6 @@ nav.deployed{
   width: 50px;
   height: 50px;
   margin-top: 7.5vh;
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 #box-menu div{
@@ -192,4 +185,13 @@ hr {
   padding-top: 15vh;
   width: 100%;
   height: 100%;
+}
+#play-btn{
+  width: 30%;
+  height: 30%;
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
 }
