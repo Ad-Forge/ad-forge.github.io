@@ -31,6 +31,26 @@ links.firstChild.addEventListener("click",menuDeploy,false);
 //body.addEventListener("click",closeMenu,false);
 
 //////////
+//CLICKS//
+//////////
+$(".thumLinks").click(function(){
+  menuDeploy();
+  setTimeout(function(){
+    $("#loader").toggleClass("show","false");
+  },0);
+
+  var current = $(this);
+  setTimeout(function(){
+    $(".panel").removeClass("active");
+    console.log(current.attr("href"));
+    $(current.attr("href")).addClass("active");
+  },2000);
+
+  setTimeout(function(){
+    $("#loader").toggleClass("show","true");
+  },3000);
+});
+//////////
 //HOVERS//
 //////////
 $(".thumLinks").mouseenter(function(event){
@@ -42,7 +62,11 @@ $(".thumLinks").mouseleave(function(event){
   $(".thumLinks").not(this).parent().toggleClass("nonhover","false");
 });
 
-// $("#box-menu div").hover(function(event){
-//   console.log("hover menubox :");
-//   $("#box-menu div").toggleClass("hover");
-// });
+//////////
+//LOADER//
+//////////
+$(document).ready(function(){
+   setTimeout(function(){
+     $("#loader").toggleClass("show","false")
+   },1000)
+});

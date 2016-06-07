@@ -1,0 +1,36 @@
+@keyframes pop{
+  0% {width: 30%; height:30%}
+  50% {width: 33%; height:33%}
+  100% {width: 30%; height:30%}
+}
+#play-btn:hover{
+  animation-name: pop;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+/*@keyframes loader{
+  from {opacity: 1}
+  to {opacity: 0;z-index: -10}
+}*/
+@keyframes loading{
+  from {transform: rotate(0deg)}
+  to {transform: rotate(360deg)}
+}
+/*#loader{
+  animation-name: loader;
+  animation-duration: 2s;
+  animation-delay: 1.75s;
+  animation-fill-mode:forwards;
+}*/
+#loader img{
+  /*animation-name: loading;*/
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  height: 10%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transform-origin: 50% 50%;
+}
