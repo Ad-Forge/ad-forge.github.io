@@ -39,3 +39,25 @@
   padding: 15px;
   width: 40%;
 }
+.infosPict{
+  float: right;
+  width: 59%;
+  height: 100%;
+  padding: 15px;
+}
+.infosPict ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.infosPict li{
+  display: inline;
+}
+.infosPict img{
+  border: solid 1px white;
+  /*width: 50%*/
+  max-width: 100%;
+  height: auto;
+  max-height: 20vh;
+}

@@ -84,6 +84,7 @@ nav:not(.deployed) a{
 .thumLinks{
   width: inherit;
   height: inherit;
+  display: block;
 }
 #links{
   text-align: center;
@@ -109,6 +110,10 @@ nav:not(.deployed) a{
 }
 #bottomMenu q{
   opacity: 1;
+}
+#bottomMenu a{
+  display: inline-block;
+  height: inherit;
 }
 #bottomMenu.deployed q{
   opacity: 0;

@@ -50,6 +50,20 @@ $(".thumLinks").click(function(){
     $("#loader").toggleClass("show","true");
   },3000);
 });
+$("#logo").click(function(){
+  setTimeout(function(){
+    $("#loader").toggleClass("show","false");
+  },0);
+
+  var current = $(this);
+  setTimeout(function(){
+    $(".panel").removeClass("active");
+  },2000);
+
+  setTimeout(function(){
+    $("#loader").toggleClass("show","true");
+  },3000);
+});
 //////////
 //HOVERS//
 //////////
@@ -61,7 +75,6 @@ $(".thumLinks").mouseleave(function(event){
   console.log("leave thumb :");
   $(".thumLinks").not(this).parent().toggleClass("nonhover","false");
 });
-
 //////////
 //LOADER//
 //////////
