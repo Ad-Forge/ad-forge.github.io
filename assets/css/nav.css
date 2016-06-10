@@ -64,7 +64,7 @@ nav.deployed{
   width: 100%;
   height: inherit;
   margin: 0 5px;
-  border: solid #5C7BFF 1px;
+  /*border: solid #5C7BFF 1px;*/
   background-image: url("../img/thumb.png");
   background-position: center;
   background-size: cover;

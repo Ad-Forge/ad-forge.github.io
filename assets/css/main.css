@@ -12,7 +12,7 @@ html, body{
 }
 body{
   color: rgb(253, 253, 253);
-  font-family: Arial;
+  font-family: 'Roboto Thin', arial;
   font-size: 1vw;
   height: 100vh;
   /*min-height: 500px;*/

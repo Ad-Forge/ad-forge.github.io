@@ -46,6 +46,27 @@
   width: 40%;
   text-align: justify;
 }
+.infosText p{
+  margin: 0;
+  padding: 0 2vw;
+}
+.infosText::before{
+  content: " ";
+  display: block;
+  background-image: url("../img/text-corner-tl.svg");
+  background-repeat: no-repeat;
+  width: 2vw;
+  height: 1vw;
+}
+.infosText::after{
+  content: " ";
+  display: block;
+  background-image: url("../img/text-corner-br.svg");
+  background-repeat: no-repeat;
+  width: 2vw;
+  height: 1vw;
+  float: right;
+}
 .infosPict{
   width: 59%;
 }
