@@ -2,16 +2,16 @@
 
 }
 #work-2{
-  background-color: red;
+
 }
 #work-3{
-  background-color: green;
+
 }
 #work-4{
-  background-color: yellow;
+
 }
 #work-5{
-  background-color: purple;
+
 }
 .active{
   z-index: 1;
@@ -32,18 +32,22 @@
 .infosPanel{
   width: 100%;
   height: 25vh;
+  margin: 0 auto;
   /*background-color: #161616;*/
   background: radial-gradient(circle, #424242, #161616);
+  justify-content: space-around;
+  display: flex;
+  padding: 1%;
+}
+.infosPanel div{
+
 }
 .infosText{
-  padding: 15px;
   width: 40%;
+  text-align: justify;
 }
 .infosPict{
-  float: right;
   width: 59%;
-  height: 100%;
-  padding: 15px;
 }
 .infosPict ul{
   padding: 0;

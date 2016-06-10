@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/css/anims.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/pages.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
   </head>
   <body>
     <div id="loader" class="show">
@@ -17,7 +19,7 @@
 
       <div class="panel" id="content">
         <img id="background" src="assets/img/bg.jpg"/>
-        <a href="#"><img id="play-btn" src="assets/img/play-Button.svg"/></a>
+        <a class="youtube"><img id="play-btn" src="assets/img/play-Button.svg"/></a>
         <!-- <video width="100%" height="100%">
           <source src="bg.jpg" type="video/mp4">
         </video> -->
@@ -28,18 +30,18 @@
           <img src="assets/img/panels/1/bg.png"/>
         </div>
         <div class="infosPanel">
-          <div class="infosPict">
-            <ul>
-              <li><img src="assets/img/panels/1/1.png"/></li>
-              <li><img src="assets/img/panels/1/2.png"/></li>
-              <li><img src="assets/img/panels/1/3.png"/></li>
-            </ul>
-          </div>
           <div class="infosText">
             <p>
               Réalisation d'une identitée graphique pour le Quai 36, espace culturel et social pour la création musicale et artistique.
               La commande consitait d'une identitée visuelle complète comprenant affiches, site internet ainsi qu'objets publicitaires.
             </p>
+          </div>
+          <div class="infosPict">
+            <ul>
+              <li><a class="gallery" data-lightbox="work1" href="assets/img/panels/1/2.png"><img src="assets/img/panels/1/2.png"/></a></li>
+              <li><a class="gallery" data-lightbox="work1" href="assets/img/panels/1/3.png"><img src="assets/img/panels/1/3.png"/></a></li>
+              <li><a class="gallery" data-lightbox="work1" href="assets/img/panels/1/1.png"><img src="assets/img/panels/1/1.png"/></a></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -85,7 +87,8 @@
       </header>
     </div>
 <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
-<script src="assets/js/jquery.colorbox.js"></script>
+<script src="assets/js/lightbox.js"></script>
 <script src="assets/js/anims.js"></script>
+<!-- <script src="assets/js/jquery.colorbox.js"></script> -->
   </body>
 </html>

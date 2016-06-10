@@ -83,3 +83,11 @@ $(document).ready(function(){
      $("#loader").toggleClass("show","false")
    },1000)
 });
+///////////
+//GALLERY//
+///////////
+// $('a.gallery').lightbox();
+
+// $(document).ready(function() {
+//   $('.youtube').lightbox();
+// });
