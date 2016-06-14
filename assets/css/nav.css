@@ -65,12 +65,27 @@ nav.deployed{
   height: inherit;
   margin: 0 5px;
   /*border: solid #5C7BFF 1px;*/
-  background-image: url("../img/thumb.png");
   background-position: center;
   background-size: cover;
   transition: -webkit-filter 0.5s;
   transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
+#works li.link1{
+  background-image: url("../img/thumb.png");
+}
+#works li.link2{
+  background-image: url("../img/panels/2/1.png");
+}
+#works li.link3{
+  background-image: url("../img/panels/3/bg.png");
+}
+#works li.link4{
+  background-image: url("../img/thumb.png");
+}
+#works li.link5{
+  background-image: url("../img/thumb.png");
+}
+
 #works li.nonhover{
   -webkit-filter: brightness(50%);
 }

@@ -44,7 +44,7 @@ $(".thumLinks").click(function(){
     $(".panel").removeClass("active");
     console.log(current.attr("href"));
     $(current.attr("href")).addClass("active");
-  },2000);
+  },3000);
 
   setTimeout(function(){
     $("#loader").toggleClass("show","true");
@@ -58,7 +58,7 @@ $("#logo").click(function(){
   var current = $(this);
   setTimeout(function(){
     $(".panel").removeClass("active");
-  },2000);
+  },3000);
 
   setTimeout(function(){
     $("#loader").toggleClass("show","true");

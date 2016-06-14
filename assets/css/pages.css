@@ -1,23 +1,38 @@
-#work-1{
-
+#work-1 .infosBg{
+  background-image: url("../img/panels/1/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-#work-2{
-
+#work-2 .infosBg{
+  background-image: url("../img/panels/2/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-#work-3{
-
+#work-3 .infosBg{
+  background-image: url("../img/panels/3/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-#work-4{
-
+#work-4 .infosBg{
+  /*background-image: url("../img/text-corner-tl.svg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-#work-5{
-
+#work-5 .infosBg{
+  /*background-image: url("../img/text-corner-tl.svg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .active{
   z-index: 1;
 }
 .panel{
-  background-color: rgb(253, 253, 253);
+  background: radial-gradient(circle, #424242, #161616);
 }
 .infosBg{
   width: 100%;
@@ -34,7 +49,6 @@
   height: 25vh;
   margin: 0 auto;
   /*background-color: #161616;*/
-  background: radial-gradient(circle, #424242, #161616);
   justify-content: space-around;
   display: flex;
   padding: 1%;
