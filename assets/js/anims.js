@@ -51,6 +51,9 @@ $(".thumLinks").click(function(){
   },3000);
 });
 $("#logo").click(function(){
+  if (deployed) {
+    menuDeploy();
+  }
   setTimeout(function(){
     $("#loader").toggleClass("show","false");
   },0);
